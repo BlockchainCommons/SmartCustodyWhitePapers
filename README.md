@@ -1,4 +1,4 @@
-##SmartCustody White Papers
+# #SmartCustody White Papers
 
 #### _Part of the [#SmartCustody](https://www.SmartCustody.com) project of the [Blockchain Commons](https://www.blockchaincommons.com/)_
 
@@ -32,4 +32,3 @@ Unless otherwise noted, the contents of this repository are Copyright ©2017-201
 Please give attribution by linking to the https://www.SmartCustody.com website.
 
 Any questions or issues concerning these white papers or contributions of updates via pull requests can be made via our Github repository at https://github.com/BlockchainCommons/SmartCustodyWhitePapers.
-
