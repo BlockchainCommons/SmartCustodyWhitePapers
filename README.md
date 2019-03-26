@@ -1,4 +1,4 @@
-#SmartCustody White Papers
+##SmartCustody White Papers
 
 #### _Part of the [#SmartCustody](https://www.SmartCustody.com) project of the [Blockchain Commons](https://www.blockchaincommons.com/)_
 
