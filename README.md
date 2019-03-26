@@ -2,7 +2,7 @@
 
 #### _Part of the [#SmartCustody](https://www.SmartCustody.com) project of the [Blockchain Commons](https://www.blockchaincommons.com/)_
 
-* [Simple Self-Custody Cold Storage Scenario](#SmartCustody-_Simple_Self-Custody_Cold_Storage_Scenario.md) — Best Practices for Protecting Your Personal Digital Assets Using Cold Storage _(Version: 2019-03-25 Release 1.0.0)_
+* [Simple Self-Custody Cold Storage Scenario](%23SmartCustody-_Simple_Self-Custody_Cold_Storage_Scenario.md) — Best Practices for Protecting Your Personal Digital Assets Using Cold Storage _(Version: 2019-03-25 Release 1.0.0)_
 
 *  [Adversaries]() — Case Studies for Securing Digital Assets Against Loss _(available late Spring 2019)_
 
