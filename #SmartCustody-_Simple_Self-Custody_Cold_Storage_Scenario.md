@@ -4,7 +4,7 @@
 
 #### _Part of the [#SmartCustody](https://www.SmartCustody.com) project of the [Blockchain Commons](https://www.blockchaincommons.com/)_
 
-**_Version: 2019-03-25 Release 1.0.0_**
+**_Version: 2019-03-25 Release 1.0.1_**
 
 ### Disclaimer
 
@@ -94,7 +94,7 @@ Don't skimp on any of these phases just because they take a while; don't figure 
 
 ### Adversaries
 
-This process in this basic scenario has been optimized to avoid risks from nine adversaries listed below — simplified by not addressing the risks of all possible adversaries (over 25+). In particular, these adversaries were the ones selected as most likely to impact a self-custodian in the first world. Adversaries related to "Non-Theft Crimes", "Loss by Government" and "Privacy-Related" are not strongly considered in this scenario.
+This process in this basic scenario has been optimized to avoid risks from ten adversaries listed below — simplified by not addressing the risks of all possible adversaries (over 25+). In particular, these adversaries were the ones selected as most likely to impact a self-custodian in the first world. Adversaries related to "Non-Theft Crimes", "Loss by Government" and "Privacy-Related" are not strongly considered in this scenario.
 
 Some additional processes for this scenario are offered as options—but be careful to avoid [Process Fatigue](#process-fatigue).
 
@@ -108,7 +108,6 @@ Some additional processes for this scenario are offered as options—but be care
 8. [Denial of Access](#denial-of-access) — _physical denial that prevents use of funds_
 9. [Process Fatigue](#process-fatigue) — _errors caused by the complexity of the overall procedure_
 10. [Physical Theft, Casual](#physical-theft-casual) — _an opportunistic physical theft_
-
 
 The most notable of these adversaries may be "Systemic Network Attack", an adversary that is very problematic in hot-wallet scenarios, but largely nullified by removing private keys into cold storage. In many ways, it's the prime adversary overcome by this scenario.
 
@@ -366,6 +365,7 @@ See [Securing Digital Assets: Adversaries]() (available late spring 2019) for a 
 12. [Institutional Theft](#institutional-theft) — _a theft by a trusted institution or its employee_
 13. [Internal Theft](#internal-theft) — _a theft by a trusted person such as an heir or executor_
 14. [Physical Theft, Sophisticated](#physical-theft-sophisticated) — _a purposeful physical theft of private keys_
+15. [Supply Chain Attack](#supply-chain-attack) - _a logistical theft_
 
 ### ❑ Optional Step: Erase Your Ledger(s)
 
@@ -787,7 +787,7 @@ When creating a scenario for protecting digital assets, a custodian makes choice
 
 Our term “adversary” is slightly different from the more common term “risk” used by other security analysis models. By anthropomorphizing these threats, we can consider their motivations. This helps a custodian to gain some distance from the scenario by making it less personal; this makes it easier for him to determine which adversaries actually are of greater risk to him personally.
 
-Following is a brief summary of the sixteen adversaries (from a list of twenty-seven) that this particular scenario addresses. Additional categories of "Non-Theft Crimes", "Loss by Government" and "Privacy-Related" adversaries are not strongly considered in the procedures offered by this scenario.
+Following is a brief summary of the fifteen adversaries (from a list of twenty-seven) that this particular scenario addresses. Additional categories of "Non-Theft Crimes", "Loss by Government" and "Privacy-Related" adversaries are not strongly considered in the procedures offered by this scenario.
 
 For a complete list of digital-asset adversaries, along with motivations, abstract & historical case studies, risks, and potential process solutions for each, see [Adversaries — Case Studies for Securing Digital Assets Against Loss]() _(available late Spring 2019)_.
 
@@ -811,10 +811,6 @@ _A sudden, large-scale destructive event._ “I want to destroy. I want to crumb
 
 _A loss caused by computer hardware or software._
 
-##### Personal Network Attack
-
-A personal online attack._ “I want to control your movements, to keep you from getting to your bank or to your house. As is often the case, I have a deeper motivation, but it probably has nothing to do with your cryptocurrency. Instead, my motives likely relate to an instability in your city, state, or country. I might be a riot, a political insurgency, or a popular uprising.”
-
 ##### Bitrot
 
 _A hardware, software, or media failure leading to loss._ “I am entropy writ large. I want to break down your storage, crash your hard drives and degrade your optical media. I want to prevent your computers from booting, your programs from running, and your data from reading; in the end, I always win.”
@@ -830,6 +826,10 @@ _A theft by a trusted institution or its employee._ “I pretend to be a good em
 ##### Internal Theft
 
 _A theft by a trusted person such as an heir or executor._ “You trusted me with your private keys. I intend to violate that trust because I want to steal your funds for my own use. And, I’ll do my best to cover it up.”
+
+##### Network Attack, Personal
+
+A personal online attack._ “I want to control your movements, to keep you from getting to your bank or to your house. As is often the case, I have a deeper motivation, but it probably has nothing to do with your cryptocurrency. Instead, my motives likely relate to an instability in your city, state, or country. I might be a riot, a political insurgency, or a popular uprising.”
 
 ##### Network Attack, Systemic
 
