@@ -369,13 +369,13 @@ See [Securing Digital Assets: Adversaries]() (available late spring 2019) for a 
 
 ### ❑ Optional Step: Erase Your Ledger(s)
 
-**Obstructed Adversary:** [Physical Theft, Casual](#physical-theft-casual), [Physical Theft, Sophisticated](#physical-theft-sophisticated)
+**Obstructed Adversary:** [Physical Theft, Casual](#physical-theft-casual), [Physical Theft, Sophisticated](#physical-theft-sophisticated), [Supply-Chain Attack](#supply-chain-attack)
 
 **Created Adversary:** [Disaster](#disaster), [Key Fragility](#key-fragility), [User Error](#user-error)
 
 **Suggested Complements:** Use Redundant Metal Tiles
 
-_A Ledger is a risk for digital-asset management, not just because it's an additional avenue through which the private keys can be accessed, but also because it's a signal flag shouting that the owner has Bitcoins. By erasing a Ledger after its initial setup, issues of **"Loss by Crime / Theft"** can thus be reduced. For this optional step, the xpub information is usually excluded too, with the theory being that the Ledger and its information can be restored from the keys and used whenever it's needed._
+_A Ledger is a risk for digital-asset management, not just because it's an additional avenue through which the private keys can be accessed, but also because it's a signal flag shouting that the owner has Bitcoins. By erasing a Ledger after its initial setup, issues of **"Loss by Crime / Theft"** can thus be reduced. In addition, it somewhat reduces the danger if there was a **Supply-Chain Attack** on your Ledger. For this optional step, the xpub information is usually excluded too, with the theory being that the Ledger and its information can be restored from the keys and used whenever it's needed._
 
 _The problem, of course, is making sure that the keys aren't lost; reducing the number of places that a key is stored increases the problem of [Key Fragility](#key-fragility) and may also make a procedure more prone to [Disaster](#disaster). So, this step should only be taken by someone who is **very, very** comfortable with the rest of this scenario, and who has also taken additional steps to backup their keys._
 
@@ -630,11 +630,11 @@ _The downside of using a two-of-three metal tile strategy is that it introduces 
 * TWO extra Steel or Titanium Tiles; or TWO extra Cryptosteels; or TWO extra CryptoTags.
 
 ### ❑ Optional Step: Use a USB Drive[^26]
-**Obstructed Adversary:** [Bitrot](#bitrot), [Personal Network Attack](#personal-network-attack)
+**Obstructed Adversary:** [Bitrot](#bitrot), [Personal Network Attack](#personal-network-attack), [Supply-Chain Attack](#supply-chain-attack)
 
 **Created Adversary:** [Process Fatigue](#process-fatigue), [User Error](#user-error)
 
-_Your main computer is constantly being updated, and it's quite possible that are some point it'll be updated to a version that no longer works with your cryptocurrency software. This is particularly dangerous when you're using open-source software whose maintenance has degenerated or proprietary software whose company has disappeared. To offset the danger of [Bitrot](#bitrot), you can preserve the operating system that you use for cryptocurrency work on a USB Drive, and boot from it whenever you plan to send or receive money. This can also offset some [Personal Network Attack](#personal-network-attack) dangers, because your cryptocurrency OS will be used infrequently, shielding you from malware.
+_Your main computer is constantly being updated, and it's quite possible that are some point it'll be updated to a version that no longer works with your cryptocurrency software. This is particularly dangerous when you're using open-source software whose maintenance has degenerated or proprietary software whose company has disappeared. To offset the danger of [Bitrot](#bitrot), you can preserve the operating system that you use for cryptocurrency work on a USB Drive, and boot from it whenever you plan to send or receive money. This can also offset some [Personal Network Attack](#personal-network-attack) dangers, because your cryptocurrency OS will be used infrequently, shielding you from malware. Similarly, it can somewhat reduce the likelihood of a supply-chain attack, if you're using an OS you installed on a USB, as opposed to the one that came with the computer._
 
 _The downside of using a USB Drive is that it requires both a fair amount of work to setup and more technical sophistication on the part of the holder than the base scenario: expect at least an hour of additional time, with a somewhat advanced procedure. And, it's a bit of a pain to have to boot it up everytime you want to do anything with your digital assets. These elements can add [Process Fatigue](#process-fatigue) and [User Error](#user-error)._
 
@@ -787,7 +787,7 @@ When creating a scenario for protecting digital assets, a custodian makes choice
 
 Our term “adversary” is slightly different from the more common term “risk” used by other security analysis models. By anthropomorphizing these threats, we can consider their motivations. This helps a custodian to gain some distance from the scenario by making it less personal; this makes it easier for him to determine which adversaries actually are of greater risk to him personally.
 
-Following is a brief summary of the fifteen adversaries (from a list of over twenty-five) that this particular scenario addresses. Additional categories of "Non-Theft Crimes", "Loss by Government" and "Privacy-Related" adversaries are not strongly considered in the procedures offered by this scenario.
+Following is a brief summary of the sixteen adversaries (from a list of twenty-seven) that this particular scenario addresses. Additional categories of "Non-Theft Crimes", "Loss by Government" and "Privacy-Related" adversaries are not strongly considered in the procedures offered by this scenario.
 
 For a complete list of digital-asset adversaries, along with motivations, abstract & historical case studies, risks, and potential process solutions for each, see [Adversaries — Case Studies for Securing Digital Assets Against Loss]() _(available late Spring 2019)_.
 
@@ -842,6 +842,10 @@ _An opportunistic physical theft_ “I just want an easy score, and your house l
 ##### Physical Theft, Sophisticated
 
 _A purposeful physical theft of private keys._ “I know you have cryptocurrency and I want to steal your keys. I’m not a fancy hacker or email spoofer. Instead, I’m someone who can successfully stage a real-world crime. I’ll break into your house or your safety deposit box. Cut the music for my heist scene.”
+
+#### Supply-Chain Attack
+
+_A logistical theft._ “I’m the slyest of thieves because I worm my way into your life without your even knowing. I corrupt your hardware before it gets to you. My goal is to mess with your devices so that I can mess with your digital assets, and you may never figure out how I did it!”
 
 #### CATEGORY: Loss by Mistakes
 
