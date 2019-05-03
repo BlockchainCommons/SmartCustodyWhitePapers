@@ -8,7 +8,7 @@
 
 ### Disclaimer
 
-_The information below is intended to inform a set of best practices. It may not address risks specific to your situation, and if it does not, you should modify appropriately. While this information may inform best practices, there is no guarantee that following this advice will sufficiently ensure the security of your digital assets. In addition, this information is only a window on best practices at a specific moment in time. Be aware that the Bitcoin & blockchain ecosystems may have evolved and the risk assessments of specific products may have changed since the publication of this draft. In other words: be cautious, be careful, and be aware of the current Bitcoin & blockchain landscape before you use this information._
+_The information below is intended to inform a set of best practices. It may not address risks specific to your situation, and if it does not, you should modify your practices appropriately. While this information may inform best practices, there is no guarantee that following this advice will ensure the security of your digital assets. This information is only a window on best practices at a specific moment in time. Be aware that the Bitcoin & blockchain ecosystems may have evolved and the risk assessments of specific products may have changed since the publication of this draft. In other words: be cautious, be careful, and be aware of the current Bitcoin & blockchain landscape before you use this information._
 
 ### Copyright & Contributing
 
@@ -32,28 +32,10 @@ Any questions or issues concerning this white paper or contributions of updates 
 
 ### What is #SmartCustody?
 
-> _**"The use of advanced cryptographic tools to improve the care, maintenance, control, and protection of digital assets."**_
+> _**"The use of risk management to improve the care, maintenance, control, and protection of digital assets."**_
 >
 
 Our goals:
-
-* To raise the bar on best practices for digital-asset custodianship by building a greater understanding of different custody use cases, risk models, and adversary threats.
-* To prepare for new custody technologies that break old models for custodianship.
-
-To accomplish these goals, we are creating a series of best-practices white papers and also offering a series of different workshops on these topics. We are additionally collaborating with cryptographic industry and regulatory stakeholders to establish standards, improve best practices, and create new cryptographic key-management and custody technologies.
-
-This is the first of our [#SmartCustody](https://www.SmartCustody.com) best-practices white papers. To be informed of the release of future best-practices and other educational white papers and to learn about future workshops, subscribe to our email newsletter at https://tinyletter.com/SmartCustody.
-
-### The #SmartCustody Team
-
-[#SmartCustody](https://www.SmartCustody.com) is a project of [Blockchain Commons](https://www.BlockchainCommons.com), which supports blockchain infrastructure, internet security, and cryptographic research.
-
-The leads for these [#SmartCustody](https://www.SmartCustody.com) efforts are Christopher Allen ([@ChristopherA](https://twitter.com/ChristopherA)), Shannon Appelcline ([@Appelcline](https://twitter.com/Appelcline)), and Bryan Bishop ([@Kanzure](https://twitter.com/kanzure)). For more information see [Author Bios](#author-bios) at end of this white paper.
-
-The procedures and contents of this white paper have been comprehensively peer-reviewed by a number of experts in the digital-asset ecosystem, including contributors to open-source project like Bitcoin Core and [The Glacier Project](https://glacierprotocol.org/), employees of blockchain technology companies like Blockstream, Ledger, and Tokensoft, and attorneys from a variety of disciplines. We expect to iterate these procedures and update this document regularly as new digital asset technologies and best practices become mature.
-
-## INTRODUCTION
-
 Digital assets are only as safe as the procedures of their custodian. Many digital-asset holders don't practice minimal safety, and this could result in the loss of all of their Bitcoins, Ether, other digital currencies as well as non-fungible digital assets. The following procedures detail simple and practical setups that can be used as the foundation of safer digital-asset management. The base scenario requires just a few hours setup and then a semi-annual check to make sure everything remains secure.
 
 ### About The Base Scenario
@@ -98,56 +80,46 @@ This process in this basic scenario has been optimized to avoid risks from ten a
 
 Some additional processes for this scenario are offered as options—but be careful to avoid [Process Fatigue](#process-fatigue).
 
-1. [Key Fragility](#key-fragility) — _an accidental key loss_
-2. [Transaction Error](#transaction-error) — _incorrect transaction details leading to loss_
-3. [User Error](#user-error) — _an operator mistake leading to loss_
-4. [System Network Attack](#network-attack-systemic) — _a server online attack_
-5. [Death / Incapacitation](#death--incapacitation) — _a mortal loss or disability that could endanger funds_
-6. [Disaster](#disaster) — _a sudden, large-scale destructive event_
-7. [Personal Network Attack](#personal-network-attack) — _a personal online attack_
-8. [Denial of Access](#denial-of-access) — _physical denial that prevents use of funds_
-9. [Process Fatigue](#process-fatigue) — _errors caused by the complexity of the overall procedure_
-10. [Physical Theft, Casual](#physical-theft-casual) — _an opportunistic physical theft_
 
-The most notable of these adversaries may be "Systemic Network Attack", an adversary that is very problematic in hot-wallet scenarios, but largely nullified by removing private keys into cold storage. In many ways, it's the prime adversary overcome by this scenario.
+> _**"The use of risk management to improve the care, maintenance, control, and protection of digital assets."**_
+>
 
-See [Appendix III: A Brief Overview of Digital-Asset Adversaries](#appendix-iii-a-brief-overview-of-digital-asset-adversaries) for a brief overview of the adversaries covered in this document, and [Adversaries — Case Studies for Securing Digital Assets Against Loss]() _(available late Spring 2019)_ for a more extensive list and discussion.
+Our goals:
 
-### Requirements
+* To improve digital-asset custodianship by building a greater understanding of different custody scenarios, risk models, and threats.
+* To prepare for new custody technologies that break old models for custodianship.
 
-The following items are necessary for this procedure, and should be purchased in advance of your setting up this scenario.[^1].
+To accomplish these goals, we are creating a series of best-practices white papers and also offering a series of workshops on these topics. We are also collaborating with cryptographic industry and regulatory stakeholders to establish standards, improve best practices, and create new cryptographic key-management and custody technologies.
 
-* ❑ Small Home Safe (For example: https://www.amazon.com/AmazonBasics-Security-Safe-0-5-Cubic-Feet/dp/B00UG9HB1Q/ )
+This is the first of our [#SmartCustody](https://www.SmartCustody.com) best-practices white papers. To be informed of the release of future white papers and to learn about future workshops, subscribe to our email newsletter at https://tinyletter.com/SmartCustody.
 
-* ❑ Safety Deposit Box at Bank or other institution
+### The #SmartCustody Team
 
-* ❑ Existing Laptop or Desktop Computer capable of running [Ledger Live](https://www.ledger.com/pages/ledger-live)[^2], preferably able to boot from a USB drive
+[#SmartCustody](https://www.SmartCustody.com) is a project of [Blockchain Commons](https://www.BlockchainCommons.com), which supports blockchain infrastructure, internet security, and cryptographic research.
 
-* ❑ 1 Fine-point Permanent Marker (Sharpie https://www.amazon.com/Sharpie-Plastic-Point-Resistant-1742663/ or equivalent)
+The leads for these [#SmartCustody](https://www.SmartCustody.com) efforts are Christopher Allen ([@ChristopherA](https://twitter.com/ChristopherA)), Shannon Appelcline ([@Appelcline](https://twitter.com/Appelcline)), and Bryan Bishop ([@Kanzure](https://twitter.com/kanzure)). For more information see [Author Bios](#author-bios) at end of this white paper. Those named do not endorse this version, which is a heavy edit by Jim Harper ([@jim_harper](https://twitter.com/jim_harper)) meant to conform the work to common terminology and make the material more accessible to lay readers.
 
-* ❑ 1 Package Waterproof Laser Paper (TerraSlate, made of 1-PET https://www.amazon.com/TerraSlate-Paper-Waterproof-Printer-Sheets/dp/B00NWVGOF4 or Rite in the Rain All-Weather Copier Paper, made of coated recyclable wood https://www.amazon.com/Rite-Rain-All-Weather-Copier-8511/dp/B0016H1RYE/ or equivalent)
+The procedures and contents of this white paper have been comprehensively peer-reviewed by a number of experts in the digital-asset ecosystem, including contributors to open-source project like Bitcoin Core and [The Glacier Project](https://glacierprotocol.org/), employees of blockchain technology companies like Blockstream, Ledger, and Tokensoft, and attorneys from a variety of disciplines. We expect to iterate these procedures and update this document regularly as new digital asset technologies and best practices become mature.
 
-* ❑ 2 Ledger Nano S[^3], Factory sealed, not used https://www.ledgerwallet.com/products/ledger-nano-s or https://www.amazon.com/gp/product/B01J66NF46
+## INTRODUCTION
 
-* ❑ One CryptoTag[^4] https://cryptotag.io/products/cryptotag-starter-kit/
+Digital assets are only as safe as the procedures of their custodian. Many digital-asset holders practice minimal safety, which could result in the loss of all of their Bitcoins, Ether, and other digital currencies as well as non-fungible digital assets. In the material below, a brief primer on risk management is followed by a survey of threats to digital assets that seem particularly salient for most digital asset-holders. The procedures that follow detail simple and practical setups that can be used as the foundation of safer digital-asset management. The base scenario requires just a few hours setup, followed by a semi-annual check to make sure everything remains secure.
 
-* ❑ 2 USB cables appropriate for connecting your computer's USB ports to the Ledger (offered as set at https://www.ledgerwallet.com/products/ledger-otg-kit
+### Risk Management
 
-  _**Optional Steps** (described later) may require  purchases of additional items._
+Risk management is a framework for securing assets or processes. It involves a series of methodical assessments. A formal risk management effort will generally begin with an examination of the thing or process being protected. This is often called “asset characterization.” In this case, the goal is fairly simple: ensuring that private keys and thus digital assets are always available to custodians, sometimes available to heirs, and never available to unauthorized parties.
 
-### Final State
+The next step in risk management is to identify and assess risks, often called “risk characterization” or “risk assessment.” The vocabulary of risk assessment is not settled, but there are a few key concepts that go into it:
 
-This procedure will secure your Bitcoin private keys by keeping the more sensitive information in a safety deposit box and the less sensitive information in a home safe, as follows:
+* **Vulnerability** is weakness or exposure that could prevent an objective from being reached. Vulnerabilities are common, and having a vulnerability does not damn an enterprise. The importance of vulnerabilities depend on other factors.
 
-| Home Safe | Safe Deposit Box |
-| :--- | :--- |
-| Ledger Device #1 | Ledger Device #2 |
-|  | Ledger PIN |
-|  | Paper 24-word seed |
-|  | CryptoTag 24-word seed |
-| Instructions for heirs and xpub and cold storage addresses | Duplicates of instructions for heirs and xpub and cold storage addresses |
+* **Threat** is some kind of actor or entity that might prevent an objective from being reached. When the threat is a conscious actor, it is often called an "adversary" or "attacker," and it is often useful to assess such actors' motives. When the threat is some environmental or physical force, it is often called a “hazard.” As with vulnerability, the existence of a threat is not significant in and of itself. A threat’s importance and contribution to risk turns on other factors.
 
-### The Basic Procedure
+* **Likelihood** is the chance that a vulnerability left open to a threat will materialize as an unwanted event or development that frustrates the objective of controlling digital assets. Knowing the likelihood that a threat will materialize is part of what allows risk managers to apportion their responses.
+
+* **Consequence** is the significance of loss or impediment to objectives should the threat materialize. Consequences can range from very low to very high. As with likelihood, gauging consequence allows risk managers to focus on the most significant risks.
+
+Analyzing vulnerabilities and threats permits risk managers to make rough calculations about likelihood and consequence. This process will float the most significant risks to the surface. Though these factors are often difficult to measure, a simple formula guides risk assessment: _Likelihood x Consequence = Risk_.
 
 #### **A. Setup Safes**
 
