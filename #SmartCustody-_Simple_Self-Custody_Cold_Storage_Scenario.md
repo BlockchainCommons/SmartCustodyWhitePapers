@@ -88,7 +88,7 @@ If you make a mistake you could lose your bitcoin today, or you could expose sec
 Here are some of the more tedious steps, and why they're important:
 
 * **_Verify Your Recovery Phrase (D)._** Double-checking your recovery phrase ensures that you can rebuild access to your digital currency if you ever lose your hardware wallet(s). By doing it after a small test transaction, you're minimizing your potential loss. **_15 minutes, but tedious._**
-* **_Setup Fireproof Key Recovery Phrase (F)._** Embedding your recovery phrase in steel or titanium strongly protects you against [Disaster](#adversary-disaster), and also gives you a backup for your hardware wallet and paper recovery phrase. However, it takes a long time to stamp 96 letters. **_1 hour._** Be sure to also repeat step D for the phrase you saved in your metal-device. **_15 minutes, and still tedious._** If you choose the "Cryptosteel" alternative, that will be equally long.
+* **_Setup Fireproof Key Recovery Phrase (F)._** Embedding your recovery phrase in steel or titanium strongly protects you against [Disaster](#disaster), and also gives you a backup for your hardware wallet and paper recovery phrase. However, it takes a long time to stamp 96 letters. **_1 hour._** Be sure to also repeat step D for the phrase you saved in your metal-device. **_15 minutes, and still tedious._** If you choose the "Cryptosteel" alternative, that will be equally long.
 
 Don't skimp on any of these phases just because they take a while; don't figure that you'll get back to them later. The goal is to ensure that you protect your digital investments from problems _before_ you make any real investments.
 
@@ -98,18 +98,18 @@ Don't skimp on any of these phases just because they take a while; don't figure 
 
 This process in this basic scenario has been optimized to avoid risks from ten adversaries listed below — simplified by not addressing the risks of all possible adversaries (over 25+). In particular, these adversaries were the ones selected as most likely to impact a self-custodian in the first world. Adversaries related to "Non-Theft Crimes", "Loss by Government" and "Privacy-Related" are not strongly considered in this scenario.
 
-Some additional processes for this scenario are offered as options—but be careful to avoid [Process Fatigue](#adversary-process-fatigue).
+Some additional processes for this scenario are offered as options—but be careful to avoid [Process Fatigue](#process-fatigue).
 
-1. [Key Fragility](#adversary-key-fragility) — _an accidental key loss_
-2. [Transaction Error](#adversary-transaction-error) — _incorrect transaction details leading to loss_
-3. [User Error](#adversary-user-error) — _an operator mistake leading to loss_
-4. [System Network Attack](#adversary-network-attack-systemic) — _a server online attack_
-5. [Death / Incapacitation](#adversary-death--incapacitation) — _a mortal loss or disability that could endanger funds_
-6. [Disaster](#adversary-disaster) — _a sudden, large-scale destructive event_
-7. [Personal Network Attack](#adversary-network-attack-personal) — _a personal online attack_
-8. [Denial of Access](#adversary-denial-of-access) — _physical denial that prevents use of funds_
-9. [Process Fatigue](#adversary-process-fatigue) — _errors caused by the complexity of the overall procedure_
-10. [Physical Theft, Casual](#adversary-physical-theft-casual) — _an opportunistic physical theft_
+1. [Key Fragility](#key-fragility) — _an accidental key loss_
+2. [Transaction Error](#transaction-error) — _incorrect transaction details leading to loss_
+3. [User Error](#user-error) — _an operator mistake leading to loss_
+4. [System Network Attack](#network-attack-systemic) — _a server online attack_
+5. [Death / Incapacitation](#death--incapacitation) — _a mortal loss or disability that could endanger funds_
+6. [Disaster](#disaster) — _a sudden, large-scale destructive event_
+7. [Personal Network Attack](#network-attack-personal) — _a personal online attack_
+8. [Denial of Access](#denial-of-access) — _physical denial that prevents use of funds_
+9. [Process Fatigue](#process-fatigue) — _errors caused by the complexity of the overall procedure_
+10. [Physical Theft, Casual](#physical-theft-casual) — _an opportunistic physical theft_
 
 The most notable of these adversaries may be "Systemic Network Attack", an adversary that is very problematic in hot-wallet scenarios, but largely nullified by removing private keys into cold storage. In many ways, it's the prime adversary overcome by this scenario.
 
@@ -157,7 +157,7 @@ This procedure will secure your Bitcoin private keys by keeping the more sensiti
       - Have the safety deposit box be in both person's names.[^7]
 
 #### **Step B: Setup Computer** [^8]
-1. *This optional action is omitted in this basic procedure. Enable it with "Use a USB Drive" if you are concerned about [Bitrot](#adversary-bitrot) or [Personal Network Attack](#adversary-network-attack-personal).*
+1. *This optional action is omitted in this basic procedure. Enable it with "Use a USB Drive" if you are concerned about [Bitrot](#bitrot) or [Personal Network Attack](#network-attack-personal).*
 2. _This optional action is omitted in this basic procedure, but enabled by"Optional Steps" below._
 3. _This optional action is omitted in this basic procedure, but enabled by"Optional Steps" below._
 4. [  ] Install the Ledger Live software for Mac, Windows or Linux [https://support.ledger.com/hc/en-us/articles/360006395553](https://support.ledger.com/hc/en-us/articles/360006395553)
@@ -303,7 +303,7 @@ This procedure will secure your Bitcoin private keys by keeping the more sensiti
 
 #### **Step K: Duplicate USB drive**
 
-_This optional step is omitted in this basic procedure. Enable it with "Use a Second USB Drive" if you are concerned about [Bitrot](#adversary-bitrot) or [Key Fragility](#adversary-key-fragility). You must also have enabled "Use a USB Drive" previously._
+_This optional step is omitted in this basic procedure. Enable it with "Use a Second USB Drive" if you are concerned about [Bitrot](#bitrot) or [Key Fragility](#key-fragility). You must also have enabled "Use a USB Drive" previously._
 
 #### **Step L: Prepare Instructions for Heirs and/or Executor**
 
@@ -319,7 +319,7 @@ _This optional step is omitted in this basic procedure. Enable it with "Use a Se
 1. [  ] Confirm contents of Home Safe.
 2. [  ] OPTIONAL: If using any tamper-evident bags, check for tampering.
 3. [  ] Check to see if there have been any exploits against the Ledger hardware, the Ledger firmware, Ledger Live, or your OS. If there are, you may need to recreate your OS drive from scratch before connecting it to the Ledger.
-4. _This optional action is omitted in this basic procedure. Enable it with "Use a USB Drive" if you are concerned about [Bitrot](#adversary-bitrot) or [Personal Network Attack](#network-attack-systemi)**_.
+4. _This optional action is omitted in this basic procedure. Enable it with "Use a USB Drive" if you are concerned about [Bitrot](#bitrot) or [Personal Network Attack](#network-attack-systemi)**_.
 5. [  ] Connect your Ledger, open Ledger Live, and confirm balances.
 6. [  ] OPTIONAL: Save any transaction logs on waterproof paper and cstore in Home Safe.
 7. [  ] OPTIONAL: If you have used your cold storage address, print new set.
@@ -334,43 +334,43 @@ _This optional step is omitted in this basic procedure. Enable it with "Use a Se
 
 ## OPTIONAL STEPS
 
-**Created Adversary:** [Process Fatigue](#adversary-process-fatigue)
+**Created Adversary:** [Process Fatigue](#process-fatigue)
 
-_The following optional steps can be added to this procedure to improve its robustness and its security. Each optional step addresses certain adversaries: they might be added if you know those adversaries to be a problem for your personal custody scenario, or if you identify the adversaries through the risk-modeling system outlined in this book. However, beware: adding optional staeps ultimately adds to the [Process Fatigue](#adversary-process-fatigue) of the entire procedure, so care should be taken to ensure that new steps are both important and understood._
+_The following optional steps can be added to this procedure to improve its robustness and its security. Each optional step addresses certain adversaries: they might be added if you know those adversaries to be a problem for your personal custody scenario, or if you identify the adversaries through the risk-modeling system outlined in this book. However, beware: adding optional staeps ultimately adds to the [Process Fatigue](#process-fatigue) of the entire procedure, so care should be taken to ensure that new steps are both important and understood._
 
 **_Optional Steps:_**
 
-* Erase Your Ledger(s)  — for [Physical Theft, Casual](#adversary-physical-theft-casual), [Physical Theft, Sophisticated](#adversary-physical-theft-sophisticated)
-* Hire a Lawyer — for [Death / Incapacitation](#adversary-death--incapacitation), [Denial of Access](#adversary-denial-of-access), [Institutional Theft](#adversary-institutional-theft)
-* Seal Metal Tiles — for [Institutional Theft](#adversary-institutional-theft), [Internal Theft](#adversary-internal-theft)
-* Use Bags (Fire-Resistant) — for [Disaster](#adversary-disaster)
-* Use Bags (Tamper-Evident) — for [Institutional Theft](#adversary-institutional-theft), Internal Theft, [Physical Theft, Sophisticated](#adversary-physical-theft-sophisticated)
-* Use a (USB) Laser Printer — for [Key Fragility](#adversary-key-fragility), [Transaction Error](#adversary-transaction-error), [User Error](#adversary-user-error)
-* Use Metal Alternative (Cryptosteel) — alternative for [Disaster](#adversary-disaster), [Key Fragility](#adversary-key-fragility)
-* Use Metal Alternative (Steel Tile & Engraver) — alternative for [Disaster](#adversary-disaster), [Key Fragility](#adversary-key-fragility)
-* Use Metal Enhancement (Redundant Metal Devices) — for [Denial of Access](#adversary-denial-of-access), [Disaster](#adversary-disaster), [Institutional Theft](#adversary-institutional-theft), [Key Fragility](#adversary-key-fragility)
-* Use a USB Drive — for [Bitrot](#adversary-bitrot), [Personal Network Attack](#adversary-network-attack-personal)
-* Use a (Second) USB Drive — for [Bitrot](#adversary-bitrot), [Disaster](#adversary-disaster)
+* Erase Your Ledger(s)  — for [Physical Theft, Casual](#physical-theft-casual), [Physical Theft, Sophisticated](#physical-theft-sophisticated)
+* Hire a Lawyer — for [Death / Incapacitation](#death--incapacitation), [Denial of Access](#denial-of-access), [Institutional Theft](#institutional-theft)
+* Seal Metal Tiles — for [Institutional Theft](#institutional-theft), [Internal Theft](#internal-theft)
+* Use Bags (Fire-Resistant) — for [Disaster](#disaster)
+* Use Bags (Tamper-Evident) — for [Institutional Theft](#institutional-theft), Internal Theft, [Physical Theft, Sophisticated](#physical-theft-sophisticated)
+* Use a (USB) Laser Printer — for [Key Fragility](#key-fragility), [Transaction Error](#transaction-error), [User Error](#user-error)
+* Use Metal Alternative (Cryptosteel) — alternative for [Disaster](#disaster), [Key Fragility](#key-fragility)
+* Use Metal Alternative (Steel Tile & Engraver) — alternative for [Disaster](#disaster), [Key Fragility](#key-fragility)
+* Use Metal Enhancement (Redundant Metal Devices) — for [Denial of Access](#denial-of-access), [Disaster](#disaster), [Institutional Theft](#institutional-theft), [Key Fragility](#key-fragility)
+* Use a USB Drive — for [Bitrot](#bitrot), [Personal Network Attack](#network-attack-personal)
+* Use a (Second) USB Drive — for [Bitrot](#bitrot), [Disaster](#disaster)
 
 See **Chapter Three: Adversaries** for a full discussion of adversaries. The following adversaries appear for the first time in this section:
 
-11. [Bitrot](#adversary-bitrot) — _a hardware, software, or media failure leading to loss_
-12. [Institutional Theft](#adversary-institutional-theft) — _a theft by a trusted institution or its employee_
-13. [Internal Theft](#adversary-internal-theft) — _a theft by a trusted person such as an heir or executor_
-14. [Physical Theft, Sophisticated](#adversary-physical-theft-sophisticated) — _a purposeful physical theft of private keys_
-15. [Supply Chain Attack](#adversary-supply-chain-attack) - _a logistical theft_
+11. [Bitrot](#bitrot) — _a hardware, software, or media failure leading to loss_
+12. [Institutional Theft](#institutional-theft) — _a theft by a trusted institution or its employee_
+13. [Internal Theft](#internal-theft) — _a theft by a trusted person such as an heir or executor_
+14. [Physical Theft, Sophisticated](#physical-theft-sophisticated) — _a purposeful physical theft of private keys_
+15. [Supply Chain Attack](#supply-chain-attack) - _a logistical theft_
 
 ### Optional Step: Erase Your Ledger(s)
 
-**Obstructed Adversary:** [Physical Theft, Casual](#adversary-physical-theft-casual), [Physical Theft, Sophisticated](#adversary-physical-theft-sophisticated), [Supply-Chain Attack](#adversary-supply-chain-attack)
+**Obstructed Adversary:** [Physical Theft, Casual](#physical-theft-casual), [Physical Theft, Sophisticated](#physical-theft-sophisticated), [Supply-Chain Attack](#supply-chain-attack)
 
-**Created Adversary:** [Disaster](#adversary-disaster), [Key Fragility](#adversary-key-fragility), [User Error](#adversary-user-error)
+**Created Adversary:** [Disaster](#disaster), [Key Fragility](#key-fragility), [User Error](#user-error)
 
 **Suggested Complements:** Use Redundant Metal Tiles
 
 _A Ledger is a risk for digital-asset management, not just because it's an additional avenue through which the private keys can be accessed, but also because it's a signal flag shouting that the owner has Bitcoins. By erasing a Ledger after its initial setup, issues of **"Loss by Crime / Theft"** can thus be reduced. In addition, it somewhat reduces the danger if there was a **Supply-Chain Attack** on your Ledger. For this optional step, the xpub information is usually excluded too, with the theory being that the Ledger and its information can be restored from the keys and used whenever it's needed._
 
-_The problem, of course, is making sure that the keys aren't lost; reducing the number of places that a key is stored increases the problem of [Key Fragility](#adversary-key-fragility) and may also make a procedure more prone to [Disaster](#adversary-disaster). So, this step should only be taken by someone who is **very, very** comfortable with the rest of this scenario, and who has also taken additional steps to backup their keys._
+_The problem, of course, is making sure that the keys aren't lost; reducing the number of places that a key is stored increases the problem of [Key Fragility](#key-fragility) and may also make a procedure more prone to [Disaster](#disaster). So, this step should only be taken by someone who is **very, very** comfortable with the rest of this scenario, and who has also taken additional steps to backup their keys._
 
 _The **Redundant Metal Tiles** enhancement step is a particularly good complement to this one because it ensures private keys are still redundantly stored, but maintains the same high level of protection introduced through this option by scattering the keys across multiple locations._
 
@@ -422,23 +422,23 @@ _The **Redundant Metal Tiles** enhancement step is a particularly good complemen
 
 ### Optional Step: Hire a Lawyer
 
-**Obstructed Adversary:** [Death / Incapacitation](#adversary-death--incapacitation), [Institutional Theft](#adversary-institutional-theft)
+**Obstructed Adversary:** [Death / Incapacitation](#death--incapacitation), [Institutional Theft](#institutional-theft)
 
-**Created Adversary:** [Process Fatigue](#adversary-process-fatigue), [Institutional Theft](#adversary-institutional-theft)
+**Created Adversary:** [Process Fatigue](#process-fatigue), [Institutional Theft](#institutional-theft)
 
-_A lawyer can store sealed files for you and will have a fiduciary responsibility to maintain them safely and privately[^21]. This can reduce the problem of [Institutional Theft](#adversary-institutional-theft) for those concerned about various privacy or legal issues regarding safety deposit boxes, but you obviously must ensure the lawyer is trusted. This option can also increase the odds of your heirs or family accessing your digital assets, because the lawyer will know what to do if [Death / Incapacitation](#adversary-death--incapacitation) occurs. But there is new danger of [Process Fatigue](#adversary-process-fatigue), if nothing else because a lawyer is an ongoing cost._
+_A lawyer can store sealed files for you and will have a fiduciary responsibility to maintain them safely and privately[^21]. This can reduce the problem of [Institutional Theft](#institutional-theft) for those concerned about various privacy or legal issues regarding safety deposit boxes, but you obviously must ensure the lawyer is trusted. This option can also increase the odds of your heirs or family accessing your digital assets, because the lawyer will know what to do if [Death / Incapacitation](#death--incapacitation) occurs. But there is new danger of [Process Fatigue](#process-fatigue), if nothing else because a lawyer is an ongoing cost._
 
 **_Replace the safety deposit box in action #4 of step "M" and in step "O" with a lawyer; or, alternatively supplement your safety deposit box to also include the same information with a lawyer in a sealed envelope._**
 
 ### Optional Step: Seal Metal Tiles
 
-**Obstructed Adversary:** [Institutional Theft](#adversary-institutional-theft), [Internal Theft](#adversary-internal-theft)
+**Obstructed Adversary:** [Institutional Theft](#institutional-theft), [Internal Theft](#internal-theft)
 
-**Created Adversary:** [Process Fatigue](#adversary-process-fatigue)
+**Created Adversary:** [Process Fatigue](#process-fatigue)
 
-_Metal tiles can be dangerous because they leave cryptographic seeds in plain text. One solution for this problem is to use a sealant to place a unique opaque cover over the words, so that looking at the words would be tamper-evident (because the sealant would have to be removed). For the sealant to be truly tamper-evident, it needs to have a unique cover that you can recognize when you revisit it, so that you know no one has removed it, then recovered it. Glitter is applied over the sealant for this purpose. This can counter [Institutional Theft](#adversary-institutional-theft) and [Internal Theft](#adversary-internal-theft)._
+_Metal tiles can be dangerous because they leave cryptographic seeds in plain text. One solution for this problem is to use a sealant to place a unique opaque cover over the words, so that looking at the words would be tamper-evident (because the sealant would have to be removed). For the sealant to be truly tamper-evident, it needs to have a unique cover that you can recognize when you revisit it, so that you know no one has removed it, then recovered it. Glitter is applied over the sealant for this purpose. This can counter [Institutional Theft](#institutional-theft) and [Internal Theft](#internal-theft)._
 
-_The deficit of sealing your plates in this way is that it'll make the plates very hard to access. That's fine for the emergency when you need to use them to recover your funds, but less so if you want to check them every once in a while, thus there is definite [Process Fatigue](#adversary-process-fatigue)._
+_The deficit of sealing your plates in this way is that it'll make the plates very hard to access. That's fine for the emergency when you need to use them to recover your funds, but less so if you want to check them every once in a while, thus there is definite [Process Fatigue](#process-fatigue)._
 
 _This process is not likely to work equally well for all sorts of metal devices. It's probably better for an ad hoc method, like using an engraver on a metal tile. It might work on CryptoTag, though it's untested. It's definitely not appropriate for something like CryptoSteel._
 
@@ -458,11 +458,11 @@ _This process is not likely to work equally well for all sorts of metal devices.
 
 ### Optional Step: Use Bags (Fire-Resistant)
 
-**Obstructed Adversary:** [Disaster](#adversary-disaster)
+**Obstructed Adversary:** [Disaster](#disaster)
 
-**Created Adversary:** [Process Fatigue](#adversary-process-fatigue)
+**Created Adversary:** [Process Fatigue](#process-fatigue)
 
-_Fire-resistant bags can increase the fire resistance of printed materials, and thus protect against [Disaster](#adversary-disaster). If used in combination with a fireproof safe, they may add to the rated time. However, note that fire-resistant bags are not specifically designed for protecting electronics: they are intended to protect non-electronic materials. They may not add any additional protections to computers, hardware wallets, USB sticks, or other such devices, and they may not even protect InkJet-printed material. So, don't overly depend on this optional step._
+_Fire-resistant bags can increase the fire resistance of printed materials, and thus protect against [Disaster](#disaster). If used in combination with a fireproof safe, they may add to the rated time. However, note that fire-resistant bags are not specifically designed for protecting electronics: they are intended to protect non-electronic materials. They may not add any additional protections to computers, hardware wallets, USB sticks, or other such devices, and they may not even protect InkJet-printed material. So, don't overly depend on this optional step._
 
 **_Add the following action to step "M" of your procedure:_**
 
@@ -476,13 +476,13 @@ _One bag is used for your home safe, one for your safety deposit box._
 
 ### Optional Step: Use Bags (Tamper-Evident)
 
-**Obstructed Adversary:** [Internal Theft](#adversary-internal-theft), [Institutional Theft](#adversary-institutional-theft), [Physical Theft, Sophisticated](#adversary-physical-theft-sophisticated)
+**Obstructed Adversary:** [Internal Theft](#internal-theft), [Institutional Theft](#institutional-theft), [Physical Theft, Sophisticated](#physical-theft-sophisticated)
 
-**Created Adversary:** [Process Fatigue](#adversary-process-fatigue)
+**Created Adversary:** [Process Fatigue](#process-fatigue)
 
-_Tamper-evident bags can be used to reduce [Internal Theft](#adversary-internal-theft), [Institutional Theft](#adversary-institutional-theft), and [Physical Theft, Sophisticated](#adversary-physical-theft-sophisticated) because it becomes more difficult to surreptitiously look at key material. For paper materials they slightly decrease risk of damage due to water used by firefighters, and thus may help a little in [Disaster](#adversary-disaster)._
+_Tamper-evident bags can be used to reduce [Internal Theft](#internal-theft), [Institutional Theft](#institutional-theft), and [Physical Theft, Sophisticated](#physical-theft-sophisticated) because it becomes more difficult to surreptitiously look at key material. For paper materials they slightly decrease risk of damage due to water used by firefighters, and thus may help a little in [Disaster](#disaster)._
 
-_They can also increase [Process Fatigue](#adversary-process-fatigue) because of the need to replace the bags whenever examining the key material._
+_They can also increase [Process Fatigue](#process-fatigue) because of the need to replace the bags whenever examining the key material._
 
 **_Add the following action to step "M" of your procedure:_**
 
@@ -496,11 +496,11 @@ _One bag is used for your home safe, one for your safety deposit box._
 
 ### Optional Step: Use a (USB) Laser Printer
 
-**Obstructed Adversary:** [Key Fragility](#adversary-key-fragility), [Transaction Error](#adversary-transaction-error), [User Error](#adversary-user-error)
+**Obstructed Adversary:** [Key Fragility](#key-fragility), [Transaction Error](#transaction-error), [User Error](#user-error)
 
 **Created Adversary:** Various varieties of Theft.
 
-_Printing information from your computer rather than hand copying it can improve [Key Fragility](#adversary-key-fragility) and can reduce [Transaction Error](#adversary-transaction-error) and [User Error](#adversary-user-error). However, be aware that a laser printer might keep what you printed in memory, opening you to Theft. Do not use a printer that will ever be reattached to a network, and clear its memory if you know how._
+_Printing information from your computer rather than hand copying it can improve [Key Fragility](#key-fragility) and can reduce [Transaction Error](#transaction-error) and [User Error](#user-error). However, be aware that a laser printer might keep what you printed in memory, opening you to Theft. Do not use a printer that will ever be reattached to a network, and clear its memory if you know how._
 
 **_Add the following action to step "B" of your procedure:_**
 
@@ -514,15 +514,15 @@ _Printing information from your computer rather than hand copying it can improve
 
 ### Optional Step: Use Metal Alternative (Cryptosteel)
 
-**Obstructed Adversary:** [Disaster](#adversary-disaster), [Key Fragility](#adversary-key-fragility)
+**Obstructed Adversary:** [Disaster](#disaster), [Key Fragility](#key-fragility)
 
-**Created Adversary:** [Physical Theft, Casual](#adversary-physical-theft-casual), Disaster, or [Institutional Theft](#adversary-institutional-theft)
+**Created Adversary:** [Physical Theft, Casual](#physical-theft-casual), Disaster, or [Institutional Theft](#institutional-theft)
 
-_Cryptosteel is primarily an alternative to CryptoTag, which means that it can similarly increase protection against [Disaster](#adversary-disaster) or [Key Fragility](#adversary-key-fragility). The advantage of using Cryptosteel is that it's the most precise of all the metal-device options: you put specific letters into the Cryptosteel case, so there's no opportunity for unreadable text. The disadvantage is that its fiddly and may not be entirely [Disaster](#adversary-disaster) resistant — it has been [reported](https://medium.com/@lopp/metal-bitcoin-seed-storage-stress-test-21f47cf8e6f5) that in one high-temperature torch test that the Cryptosteel twisted and some of the letters popped out._
+_Cryptosteel is primarily an alternative to CryptoTag, which means that it can similarly increase protection against [Disaster](#disaster) or [Key Fragility](#key-fragility). The advantage of using Cryptosteel is that it's the most precise of all the metal-device options: you put specific letters into the Cryptosteel case, so there's no opportunity for unreadable text. The disadvantage is that its fiddly and may not be entirely [Disaster](#disaster) resistant — it has been [reported](https://medium.com/@lopp/metal-bitcoin-seed-storage-stress-test-21f47cf8e6f5) that in one high-temperature torch test that the Cryptosteel twisted and some of the letters popped out._
 
-_As with any unencrypted copy of your master seed, you should protect it somewhere like a safety deposit box, or you'll increase your vulnerability to [Physical Theft, Casual](#adversary-physical-theft-casual). However doing so increases the likelihood of [Institutional Theft](#adversary-institutional-theft), so be sure to assess which is more likely given your situation._
+_As with any unencrypted copy of your master seed, you should protect it somewhere like a safety deposit box, or you'll increase your vulnerability to [Physical Theft, Casual](#physical-theft-casual). However doing so increases the likelihood of [Institutional Theft](#institutional-theft), so be sure to assess which is more likely given your situation._
 
-_This is one of three possible options for maintaining a copy of your Recovery Phrase using a metal-device to increase its durability and [Disaster](#adversary-disaster) resistance. CryptoTag is our default choice, as we believe it best combines fire resistance [^22] and preciseness. Of our two optional choices: Cryptosteel is more precise but more fiddly; while a Metal Tile & Engraver are cheap and simple, but can lead to precision problems with messy transcription._
+_This is one of three possible options for maintaining a copy of your Recovery Phrase using a metal-device to increase its durability and [Disaster](#disaster) resistance. CryptoTag is our default choice, as we believe it best combines fire resistance [^22] and preciseness. Of our two optional choices: Cryptosteel is more precise but more fiddly; while a Metal Tile & Engraver are cheap and simple, but can lead to precision problems with messy transcription._
 
 **_Replace the first action in step "F" of your procedure; alternatively, add this action to step "F" if you want to use a Cryptosteel in addition to CrypoTag._**
 
@@ -545,15 +545,15 @@ _This is one of three possible options for maintaining a copy of your Recovery P
 
 ### Optional Step: Use Metal Alternative (Single Metal Tile & Engraver)
 
-**Obstructed Adversary:** [Disaster](#adversary-disaster), [Key Fragility](#adversary-key-fragility)
+**Obstructed Adversary:** [Disaster](#disaster), [Key Fragility](#key-fragility)
 
-**Created Adversary:** [Physical Theft, Casual](#adversary-physical-theft-casual) or [Institutional Theft](#adversary-institutional-theft)
+**Created Adversary:** [Physical Theft, Casual](#physical-theft-casual) or [Institutional Theft](#institutional-theft)
 
-_A Metal Tile with an Engraver is primarily an alternative to CryptoTag, which means that it can similarly increase protection against [Disaster](#adversary-disaster) or [Key Fragility](#adversary-key-fragility). The advantage of using a Engraved Metal Tile is that it's simpler and cheaper; the disadvantage is that it's more prone to [User Error](#adversary-user-error), as it can be harder to read the letters. (If you prefer, stamp it [by hand](https://stampingblanks.com/Stamp-Sets/). Both Steel and Titanium options are available: be aware that Steel has a slightly lower melting point than Titanium, and beware that some tiles advertised as steel are actually aluminum, which has an even lower melting point. (Read the fine print!) Of course, having a engraved tile in addition to the high-end CryptoTag can increase protection even more._
+_A Metal Tile with an Engraver is primarily an alternative to CryptoTag, which means that it can similarly increase protection against [Disaster](#disaster) or [Key Fragility](#key-fragility). The advantage of using a Engraved Metal Tile is that it's simpler and cheaper; the disadvantage is that it's more prone to [User Error](#user-error), as it can be harder to read the letters. (If you prefer, stamp it [by hand](https://stampingblanks.com/Stamp-Sets/). Both Steel and Titanium options are available: be aware that Steel has a slightly lower melting point than Titanium, and beware that some tiles advertised as steel are actually aluminum, which has an even lower melting point. (Read the fine print!) Of course, having a engraved tile in addition to the high-end CryptoTag can increase protection even more._
 
-_As with any unencrypted copy of your master seed, you should protect it somewhere like a safety deposit box, or you'll increase your vulnerability to [Physical Theft, Casual](#adversary-physical-theft-casual). However doing so increases the likelihood of [Institutional Theft](#adversary-institutional-theft), so be sure to assess which is more likely given your situation._
+_As with any unencrypted copy of your master seed, you should protect it somewhere like a safety deposit box, or you'll increase your vulnerability to [Physical Theft, Casual](#physical-theft-casual). However doing so increases the likelihood of [Institutional Theft](#institutional-theft), so be sure to assess which is more likely given your situation._
 
-_This is one of three possible options for maintaining a copy of your Recovery Phrase using a metal-device to increase its durability and [Disaster](#adversary-disaster) resistance. CryptoTag is our default choice, as we believe it best combines fire resistance [^23] and preciseness. Of our two optional choices: Cryptosteel is more precise but more fiddly; while a Metal Tile & Engraver are cheap and simple, but can lead to precision problems with messy transcription._
+_This is one of three possible options for maintaining a copy of your Recovery Phrase using a metal-device to increase its durability and [Disaster](#disaster) resistance. CryptoTag is our default choice, as we believe it best combines fire resistance [^23] and preciseness. Of our two optional choices: Cryptosteel is more precise but more fiddly; while a Metal Tile & Engraver are cheap and simple, but can lead to precision problems with messy transcription._
 
 **_Replace the first action in step "F" of your procedure; alternatively, add this action to step "F" if you want to use a metal tile & engraver in addition to CrypoTag._**
 
@@ -580,13 +580,13 @@ _This is one of three possible options for maintaining a copy of your Recovery P
 
 ### Optional Step: Use Metal Enhancement (Redundant Metal Devices)
 
-**Obstructed Adversary:** [Disaster](#adversary-disaster), [Institutional Theft](#adversary-institutional-theft), [Key Fragility](#adversary-key-fragility)
+**Obstructed Adversary:** [Disaster](#disaster), [Institutional Theft](#institutional-theft), [Key Fragility](#key-fragility)
 
-**Created Adversary:** [Death / Incapacitation](#adversary-death--incapacitation), [Process Fatigue](#adversary-process-fatigue), [User Error](#adversary-user-error) 
+**Created Adversary:** [Death / Incapacitation](#death--incapacitation), [Process Fatigue](#process-fatigue), [User Error](#user-error) 
 
-_Cryptosteel, CryptoTag, and engravable steel or titanium tiles are great for preventing disastrous loss of your key, but introduce a real danger since you're forced to leave an unencrypted copy of your master seed in plain sight. An alternative is to use any of these methods to create a redundant set of three metal-protected copies of your master seed, where each copy contains only two-thirds of your words, and any two copies can recover your seed completely. This continues to protect you from [Disaster](#adversary-disaster) and [Key Fragility](#adversary-key-fragility) but also introduces robust but imperfect[^24] protections against **Loss by Crime / Theft**, primarily focusing on [Institutional Theft](#adversary-institutional-theft) (since you'd usually be protecting your unencrypted master seed in a safety deposit box)._
+_Cryptosteel, CryptoTag, and engravable steel or titanium tiles are great for preventing disastrous loss of your key, but introduce a real danger since you're forced to leave an unencrypted copy of your master seed in plain sight. An alternative is to use any of these methods to create a redundant set of three metal-protected copies of your master seed, where each copy contains only two-thirds of your words, and any two copies can recover your seed completely. This continues to protect you from [Disaster](#disaster) and [Key Fragility](#key-fragility) but also introduces robust but imperfect[^24] protections against **Loss by Crime / Theft**, primarily focusing on [Institutional Theft](#institutional-theft) (since you'd usually be protecting your unencrypted master seed in a safety deposit box)._
 
-_The downside of using a two-of-three metal tile strategy is that it introduces complexity into your procedure. When you set up your tiles, [User Error](#adversary-user-error) could leave you with an incomplete set of 24 words, if you don't break them up correctly. Later, having to constantly collect two out of three tiles can introduce [Process Fatigue](#adversary-process-fatigue). Finally, the complexity of this setup might increase the danger of **Danger/Incapacitation** resulting in your digital fortunes being lost._
+_The downside of using a two-of-three metal tile strategy is that it introduces complexity into your procedure. When you set up your tiles, [User Error](#user-error) could leave you with an incomplete set of 24 words, if you don't break them up correctly. Later, having to constantly collect two out of three tiles can introduce [Process Fatigue](#process-fatigue). Finally, the complexity of this setup might increase the danger of **Danger/Incapacitation** resulting in your digital fortunes being lost._
 
 **_Enhance step "F" of your procedure as follows_**
 
@@ -618,13 +618,13 @@ _The downside of using a two-of-three metal tile strategy is that it introduces 
 
 ### Optional Step: Use a USB Drive[^25]
 
-**Obstructed Adversary:** [Bitrot](#adversary-bitrot), [Personal Network Attack](#adversary-network-attack-personal), [Supply-Chain Attack](#adversary-supply-chain-attack)
+**Obstructed Adversary:** [Bitrot](#bitrot), [Personal Network Attack](#network-attack-personal), [Supply-Chain Attack](#supply-chain-attack)
 
-**Created Adversary:** [Process Fatigue](#adversary-process-fatigue), [User Error](#adversary-user-error)
+**Created Adversary:** [Process Fatigue](#process-fatigue), [User Error](#user-error)
 
-_Your main computer is constantly being updated, and it's quite possible that are some point it'll be updated to a version that no longer works with your cryptocurrency software. This is particularly dangerous when you're using open-source software whose maintenance has degenerated or proprietary software whose company has disappeared. To offset the danger of [Bitrot](#adversary-bitrot), you can preserve the operating system that you use for cryptocurrency work on a USB Drive, and boot from it whenever you plan to send or receive money. This can also offset some [Personal Network Attack](#adversary-network-attack-personal) dangers, because your cryptocurrency OS will be used infrequently, shielding you from malware. Similarly, it can somewhat reduce the likelihood of a supply-chain attack, if you're using an OS you installed on a USB, as opposed to the one that came with the computer._
+_Your main computer is constantly being updated, and it's quite possible that are some point it'll be updated to a version that no longer works with your cryptocurrency software. This is particularly dangerous when you're using open-source software whose maintenance has degenerated or proprietary software whose company has disappeared. To offset the danger of [Bitrot](#bitrot), you can preserve the operating system that you use for cryptocurrency work on a USB Drive, and boot from it whenever you plan to send or receive money. This can also offset some [Personal Network Attack](#network-attack-personal) dangers, because your cryptocurrency OS will be used infrequently, shielding you from malware. Similarly, it can somewhat reduce the likelihood of a supply-chain attack, if you're using an OS you installed on a USB, as opposed to the one that came with the computer._
 
-_The downside of using a USB Drive is that it requires both a fair amount of work to setup and more technical sophistication on the part of the holder than the base scenario: expect at least an hour of additional time, with a somewhat advanced procedure. And, it's a bit of a pain to have to boot it up everytime you want to do anything with your digital assets. These elements can add [Process Fatigue](#adversary-process-fatigue) and [User Error](#adversary-user-error)._
+_The downside of using a USB Drive is that it requires both a fair amount of work to setup and more technical sophistication on the part of the holder than the base scenario: expect at least an hour of additional time, with a somewhat advanced procedure. And, it's a bit of a pain to have to boot it up everytime you want to do anything with your digital assets. These elements can add [Process Fatigue](#process-fatigue) and [User Error](#user-error)._
 
 **_Add the following to Step "B":_**
 
@@ -650,9 +650,9 @@ More sophisticated users might prefer a [read-only USB](https://www.amazon.com/F
 
 ### Optional Step: Use a (Second) USB Drive
 
-**Obstructed Adversary:** [Bitrot](#adversary-bitrot), [Disaster](#adversary-disaster), [Systemic Network Attack](#adversary-network-attack-systemic)
+**Obstructed Adversary:** [Bitrot](#bitrot), [Disaster](#disaster), [Systemic Network Attack](#network-attack-systemic)
 
-_If you already "Use a USB Drive", you may want to double-up with a second copy. Any usage of a secondary electronic device can protect against [Bitrot](#adversary-bitrot): since you'll be updating your first USB drive in spring and this second USB drive in fall, if a problem arises with an upgrade, you'll still have a clean copy of the OS on your other drive. Similarly, if a operating system is compromised by [Systemic Network Attack](#adversary-network-attack-systemic), you have a backup._
+_If you already "Use a USB Drive", you may want to double-up with a second copy. Any usage of a secondary electronic device can protect against [Bitrot](#bitrot): since you'll be updating your first USB drive in spring and this second USB drive in fall, if a problem arises with an upgrade, you'll still have a clean copy of the OS on your other drive. Similarly, if a operating system is compromised by [Systemic Network Attack](#network-attack-systemic), you have a backup._
 
 **_Add the following step "K" to your procedure:_**
 
@@ -684,7 +684,7 @@ The base scenario suggests a secure way to maintain your digital assets in cold 
 
 **Who Should Use This:** People afraid that they will lose their digital assets due to misadventure.
 
-If you're afraid that the base scenario doesn't protect you against accidental loss of a key, you may be right: that's probably the most likely way to lose your digital assets, particularly due to [Disaster](#adversary-disaster) or simple [Key Fragility](#adversary-key-fragility). To avoid that, you can incorporate a few of the optional steps that all relate to increasing your redundancy, with the understanding that they also tend to increase your vulnerability to various types of purposeful "**Loss by Crime / Theft**".
+If you're afraid that the base scenario doesn't protect you against accidental loss of a key, you may be right: that's probably the most likely way to lose your digital assets, particularly due to [Disaster](#disaster) or simple [Key Fragility](#key-fragility). To avoid that, you can incorporate a few of the optional steps that all relate to increasing your redundancy, with the understanding that they also tend to increase your vulnerability to various types of purposeful "**Loss by Crime / Theft**".
 
 | Home Safe | Safety Deposit Box | Lawyer |
 | :--- | :--- | :--- |
@@ -720,7 +720,7 @@ If you don't think the base scenario sufficiently protects your unencrypted keys
 
 **Who Should Use This:** People with _strong_ fear of key theft, a _strong_ ability to not lose keys themselves, and no need to trade coins.
 
-The increased protection of Level 1 theft protection might be insufficient if you think you are a prime target of cryptocurrency theft or if you don't feel there is anyone you can trust with potential access to this currency. In this case, you don't want to leave your private key accessible at any location. You keep your Ledger clear when it's not in use and your separate your keys into 2-of-3 sets. In order to somewhat reduce the dangers of [Key Fragility](#adversary-key-fragility) and [Death / Incapacitation](#adversary-death--incapacitation), a lawyer is involved to ensure that someone besides you knows how (and why) to put everything back together.
+The increased protection of Level 1 theft protection might be insufficient if you think you are a prime target of cryptocurrency theft or if you don't feel there is anyone you can trust with potential access to this currency. In this case, you don't want to leave your private key accessible at any location. You keep your Ledger clear when it's not in use and your separate your keys into 2-of-3 sets. In order to somewhat reduce the dangers of [Key Fragility](#key-fragility) and [Death / Incapacitation](#death--incapacitation), a lawyer is involved to ensure that someone besides you knows how (and why) to put everything back together.
 
 | Home Safe | Safety Deposit Box | Lawyer |
 | :--- | :--- | :--- |
@@ -875,11 +875,11 @@ _An operator mistake leading to loss._ “I’m that niggling mistake that would
 
 [^4]:We similarly chose the CryptoTag because we thought it the best option when compared to alternatives like Cryptosteel and engraved tiles: more discussion of this can be found in the Optional Steps section.
 
-[^5]:Note that most home safes do not offer enough [Disaster](#adversary-disaster) resistance to sufficiently protect your digital assets. At best they are rated to protect paper against fire. The primary goals of a home safe are to store your PIN-protected key on on a redundant Ledger, to help protect against [Physical Theft, Casual](#adversary-physical-theft-casual), and to provide a secondary location to store a redundant PIN-protected Ledger key in case of physical [Denial of Access](#adversary-denial-of-access) to your safe deposit box.
+[^5]:Note that most home safes do not offer enough [Disaster](#disaster) resistance to sufficiently protect your digital assets. At best they are rated to protect paper against fire. The primary goals of a home safe are to store your PIN-protected key on on a redundant Ledger, to help protect against [Physical Theft, Casual](#physical-theft-casual), and to provide a secondary location to store a redundant PIN-protected Ledger key in case of physical [Denial of Access](#denial-of-access) to your safe deposit box.
 
 [^6]:It could be argued that this Safe Deposit Box should not be in the same town as your home safe. If a earthquake or fire strikes Berkeley, it is not likely to be as bad in San Jose, and vise versa. You will be visiting it at least once a year, so it should not be too inconvenient. If you are near an international border (for instance in Seattle or Vancouver), it can be useful to have your Safe Deposit Box in another country from your residence to assist against Legal Forfeiture. However, it is more important to be sure that both you and your heirs have easy access to it.
 
-[^7]:Joint names associated with a joint account should make it more difficult for legal physical [Denial of Access](#adversary-denial-of-access) to box by the heirs, however, the rules for this differ state-by-state. Ideally this account should be in the form of "joint tenancy" and "tenancy by the entirety". You should seek advice of a local lawyer. See [http://www.weisslawstl.com/2008/02/16/joint-tenancy-accounts-safe-deposit-boxes-will-substitutes-will-substitute-will](http://www.weisslawstl.com/2008/02/16/joint-tenancy-accounts-safe-deposit-boxes-will-substitutes-will-substitute-will)
+[^7]:Joint names associated with a joint account should make it more difficult for legal physical [Denial of Access](#denial-of-access) to box by the heirs, however, the rules for this differ state-by-state. Ideally this account should be in the form of "joint tenancy" and "tenancy by the entirety". You should seek advice of a local lawyer. See [http://www.weisslawstl.com/2008/02/16/joint-tenancy-accounts-safe-deposit-boxes-will-substitutes-will-substitute-will](http://www.weisslawstl.com/2008/02/16/joint-tenancy-accounts-safe-deposit-boxes-will-substitutes-will-substitute-will)
 
 [^8]:Higher security scenarios will require the initialization of computer devices and keys generated in a room with no windows, all cell phones removed, laptop cameras, microphones, and home security cameras turned off and taped over, and limited internet connectivity (no wifi). A [white noise generator](https://www.amazon.ca/Sleeping-Soothing-Portable-Permanent-Relaxation/dp/B071PB5PXG/) can further foil anything you might have missed. This is not required for this base scenario, but is cheap and easy to do.
 
@@ -897,7 +897,7 @@ _An operator mistake leading to loss._ “I’m that niggling mistake that would
 
 [^15]:I recommend titanium; as it has a melting point of 3287°C it will likely survive a disastrous fire. Steel is good, with a melting point of between 1300° - 1500°C will survive most common fires. Either, combined with fireproof envelope and stored in a bank safe deposit box, should survive most disastrous situations.
 
-[^16]:The safe at home is not required, but is convenient. It's most important that there be at least one additional place, besides the safe deposit box, that is somewhat secure against [Physical Theft, Casual](#adversary-physical-theft-casual) and that will also protect you against physical [Denial of Access](#adversary-denial-of-access), if you are locked out of your safe deposit box.
+[^16]:The safe at home is not required, but is convenient. It's most important that there be at least one additional place, besides the safe deposit box, that is somewhat secure against [Physical Theft, Casual](#physical-theft-casual) and that will also protect you against physical [Denial of Access](#denial-of-access), if you are locked out of your safe deposit box.
 
 [^17]:Like using tamper-proof bags, there are some questions as to how much security is added by physically signing the cases of the hardware, as any attacker sophisticated enough to create a working fake that functions with your PIN could also duplicate the case. However, it is a low cost and easy thing to do.
 
