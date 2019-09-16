@@ -4,7 +4,7 @@
 
 #### _Part of the [#SmartCustody](https://www.SmartCustody.com) project of the [Blockchain Commons](https://www.blockchaincommons.com/)_
 
-**_Version: 2019-04-05 Release 1.0.1_**
+**_Version: 2019-09-16 Release 1.0.2_**
 
 ### Disclaimer
 
